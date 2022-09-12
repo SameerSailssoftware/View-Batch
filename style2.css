@@ -226,6 +226,7 @@ body{
 #tbstud {
     width: 100%;
     /* margin: 50px auto; */
+    background-color: #ebf3f9;
     border-collapse: separate;
     border-spacing: 3px;
     box-shadow: 0 1px 4px 0px rgb(236 244 250);
@@ -618,5 +619,34 @@ padding: 9px 0px;
 @media screen and (min-width: 1920px){
 .py-2 {
     width: 410px;
+}
+
+
+
+.area {
+    background-color: white;
+    font-family: sans-serif;
+    height: 160px;
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    box-shadow: 0px 4px 8px rgb(0 0 0 / 16%);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+.py-2 {
+    color: #31afe5;
+    font-size: 13px;
+    width: 320px;
+    padding-top: 1rem !important;
+    padding-bottom: 0.5rem !important;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 32px;
+    column-gap: 50px;
 }
 }
