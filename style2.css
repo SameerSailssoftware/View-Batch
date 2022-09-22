@@ -599,9 +599,11 @@ padding: 9px 0px;
 }
 
 #btnside{
-    padding-left: 110px;
+    padding-left: 43%;
     display: flex;
     margin-top: 18px;
+    width: 100%;
+    flex-direction: row;
 }
 
 .iicon{
